@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#thankYou {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div > img {
+    width: 20em;
+    margin: 0 auto;
+}
+
+#button {
+    width: 10em;
+    margin: 0 auto;
+    margin-top: 10px;
+}
